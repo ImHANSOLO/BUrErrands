@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape android:shape="rectangle">
+            <!-- 圆角-->
+            <corners android:radius="20dp"/>
+            <!-- 设置按钮中的文字与边框的距离-->
+            <solid android:color="@color/bitGrey"/>
+            <!-- 背景色-->
+            <stroke android:width="3dp" android:color="@color/grey"/>
+            <!-- 边框色-->
+        </shape>
+    </item>
+
+</selector>

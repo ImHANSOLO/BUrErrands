@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="31">
+        <activity
+            android:name=".util.ShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryActivity"
+            android:exported="true" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions"/> -->
+        <!-- android:resource="@xml/ic_shopping_cart" /> -->
+        <activity
+            android:name=".ChangeHeadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" /> <!-- 防止net::ERR_CLEARTEXT_NOT_PERMITTED -->
+        <activity
+            android:name=".DActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SlideActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".util.OrderHistory"
+            android:exported="true" /> <!-- <activity -->
+        <!-- master -->
+        <!-- android:name=".LoginActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:exported="true"/> -->
+        <!-- master -->
+        <activity
+            android:name=".util.MainPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

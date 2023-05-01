@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ae535b"
+    tools:context=".CActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DActivity">
+
+        <Button
+            android:id="@+id/btn_study1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_study2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B2"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_study3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B3"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_study4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B4"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_study5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B5"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_study6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bt_humditiy2"
+            android:text="B6"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
