@@ -99,6 +99,7 @@ public class MainPageActivity extends AppCompatActivity {
         foodList.add(new FoodDomain("Fried Rice","sidesfriedrice","Panda Express\nFried rice with beans and eggs",4.40));
         foodList.add(new FoodDomain("Dragon Roll","dragonroll","Basho\nWhite rice and vegetables rolled with fresh salmon",14.00));
         foodList.add(new FoodDomain("The Poke","poke","Basho\nPoh-Keh, is a traditional food from Hawaii, which is tuna slice served with rice, vegetables and fruits. Many sauces to choose from",17.00));
+        foodList.add(new FoodDomain("Wireless Power Bank","wirelesspb","T.J.Max\nXiaomi 10000mAh capacity, 18w with USB-C, supports 10w wireless super charge",49.00));
 
         adapter2 = new PopularAdapter(foodList);
         recyclerViewPopularList.setAdapter(adapter2);
